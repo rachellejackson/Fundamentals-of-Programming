@@ -26,6 +26,9 @@ mouse clicks in the window.
 
 """
 
+import turtle
+import math
+
 def leftoverArea(sideLength):
     """
     Calculates the area leftover after four, quarter-circles are removed
@@ -43,7 +46,6 @@ def leftoverArea(sideLength):
     circleArea = radius * radius * math.pi
     leftover = squareArea - circleArea
     return leftover
-
 
 def drawcircle(turtleName, radius, xcoordinate, ycoordinate):
     """
@@ -64,7 +66,6 @@ def drawcircle(turtleName, radius, xcoordinate, ycoordinate):
     turtleName.circle(radius)
     turtleName.end_fill()
 
-
 def label(turtlename, xcoord, ycoord, letter):
     """
     Labels a coordinate point with an alphabetic character.
@@ -78,12 +79,6 @@ def label(turtlename, xcoord, ycoord, letter):
     turtlename.penup()
     turtlename.setposition(xcoord, ycoord)
     turtlename.write(letter)
-
-
-
-import turtle
-import math
-
 
 def main():
     """
