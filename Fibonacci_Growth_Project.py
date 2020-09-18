@@ -13,7 +13,6 @@ one pair of adult rabbits. The table for month one will look something like
 Month	Adult	Babies	Total
 1	    1	    0	      1
  
-
 At the end of month one this pair of adults produces one pair of offspring. Thus, at the 
 beginning of month two the table will look like this:
 
@@ -21,7 +20,6 @@ Month	Adult	Babies	Total
 1	    1	    0	      1
 2	    1	    1	      2
  
-
 At the end of month two the adults have another pair of baby rabbits. The first pair of 
 babies, born at the end of last month are not old enough to have babies yet, but we will 
 categorize them as adults. So, at the beginning of month three the table looks like this:
@@ -31,7 +29,6 @@ Month	Adult	Babies	Total
 2	    1	    1	      2
 3	    2	    1	      3
  
-
 The scientist has 500 cages in which to hold her rabbits. Each cage holds one pair of rabbits.
 Assuming that no rabbits ever die, when will she run out of cages?
 
